@@ -5,6 +5,7 @@ This project is an end-to-end **retail analytics solution** built to analyze Chr
 The analysis focuses on understanding **sales trends, product performance, order behavior, promotions, and fulfillment efficiency**.
 
 The project demonstrates how raw retail data can be transformed into **actionable business insights** using **Microsoft SQL Server** for analysis and **Power BI** for interactive visualization and storytelling.
+![Poster](Results/Poster.png)
 
 ##  Technology Stack
 - **Microsoft SQL Server** – Data storage, transformation, and analysis  
@@ -25,7 +26,7 @@ The dataset was first uploaded into **Microsoft SQL Server**, where all major in
 - Conditional logic using `CASE WHEN`
 
  **SQL Scripts:**  
-All SQL queries used for this analysis are available in the [`/sql`](sql/) folder.
+All SQL queries used for this analysis are available in the [`/sql`](SQL/Retail_enterprice.sql) folder.
 
 ---
 
@@ -34,8 +35,11 @@ After completing the SQL analysis, the data was connected to **Power BI** to bui
 
 ### Dashboards Created
 1. **Product Dashboard**
-2. **Orders Dashboard**
-3. **Sales Dashboard**
+![](Results/Products.png)
+3. **Orders Dashboard**
+![](Results/Orders.png)
+5. **Sales Dashboard**
+![](Results/Sales.png)
    
 ##  Navigation Poster (Landing Page)
 A **poster-style landing page** was designed in Power BI using:
